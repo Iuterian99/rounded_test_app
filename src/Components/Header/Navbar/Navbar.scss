@@ -1,0 +1,27 @@
+.navbar {
+  width: 100%;
+  padding: 20px 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation__list {
+  list-style-type: none;
+  display: flex;
+
+  &__item {
+    margin-right: 20px;
+  }
+}
+
+.navbar__btn {
+  background-color: rgba(0, 84, 144, 1);
+  width: 95px;
+  height: 38px;
+}
