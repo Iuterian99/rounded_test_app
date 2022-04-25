@@ -1,23 +1,48 @@
 .leftText {
   padding-left: 140px;
   margin-top: 170px;
-}
 
-.heading1 {
-  width: 643px;
-  height: 241px;
-  left: 9.72%;
-  right: 47.01%;
-  top: calc(50% - 241px / 2 - 2190px);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 76px;
-  margin: 0;
+  &__heading1 {
+    width: 643px;
+    height: 241px;
+    left: 9.72%;
+    right: 47.01%;
+    top: calc(50% - 241px / 2 - 2190px);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    margin: 0;
+    font-family: "DM Sans";
+    -webkit-text-stroke: 1px #000000;
+  }
+  &__paragraph {
+    width: 459px;
+    height: 78px;
+    left: 9.72%;
+    right: 58.4%;
+    top: calc(50% - 78px / 2 - 1998.5px);
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+    margin-top: 32px;
+  }
+}
+.faster {
+  position: relative;
 }
 
 .faster::after {
+  position: absolute;
+  bottom: -28px;
+  left: -0px;
   content: "";
-  display: block;
-  background-image: url("../../../Images/Vector.svg");
+  display: inline-block;
+  width: 177px;
+  height: 51px;
+  background-repeat: no-repeat;
+  background-image: url(../../../Images/Vector.svg);
 }
