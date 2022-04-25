@@ -1,0 +1,23 @@
+.leftText {
+  padding-left: 140px;
+  margin-top: 170px;
+}
+
+.heading1 {
+  width: 643px;
+  height: 241px;
+  left: 9.72%;
+  right: 47.01%;
+  top: calc(50% - 241px / 2 - 2190px);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  margin: 0;
+}
+
+.faster::after {
+  content: "";
+  display: block;
+  background-image: url("../../../Images/Vector.svg");
+}

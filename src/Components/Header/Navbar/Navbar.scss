@@ -1,6 +1,7 @@
 .navbar {
   width: 100%;
-  padding: 20px 140px;
+  padding: 39px 140px;
+  padding-bottom: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,7 +17,33 @@
   display: flex;
 
   &__item {
-    margin-right: 20px;
+    margin-right: 30px;
+
+    &__link {
+      text-decoration: none;
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: center;
+      letter-spacing: 0.3px;
+
+      color: #ffffff;
+    }
+  }
+}
+
+.landings {
+  background-color: rgb(0, 168, 219);
+  border: 0;
+  color: white;
+  font-size: 14px;
+  &:hover {
+    border: 0;
+  }
+  &:active {
+    border: 0;
   }
 }
 
@@ -24,4 +51,8 @@
   background-color: rgba(0, 84, 144, 1);
   width: 95px;
   height: 38px;
+  left: 1205px;
+  top: 39px;
+  color: white;
+  font-size: 14px;
 }
