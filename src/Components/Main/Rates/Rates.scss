@@ -1,0 +1,38 @@
+.rates {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  &__left {
+    &__heading {
+      width: 463px;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 52px;
+      letter-spacing: 0.3px;
+      color: #034d82;
+    }
+    &__paragraph {
+      width: 421px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      letter-spacing: 0.3px;
+      color: #90a3b4;
+    }
+  }
+
+  &__right {
+    &__text {
+      &__paragraph {
+        width: 442px;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: #90a3b4;
+      }
+    }
+  }
+}

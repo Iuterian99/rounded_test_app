@@ -2,6 +2,7 @@ import "./Main.scss";
 import Brand from "./CompanyBrands/Brand";
 import Posts from "./Posts/Posts";
 import Hashtags from "./Hashtags/Hashtags";
+import Rates from "./Rates/Rates";
 
 const Main = () => {
   return (
@@ -9,6 +10,7 @@ const Main = () => {
       <Brand />
       <Posts />
       <Hashtags />
+      <Rates />
     </div>
   );
 };
