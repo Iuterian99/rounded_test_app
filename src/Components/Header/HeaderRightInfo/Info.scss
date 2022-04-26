@@ -1,0 +1,38 @@
+.info {
+  position: relative;
+  &__circle {
+    width: 432px;
+    height: 432px;
+    position: absolute;
+    bottom: -170px;
+    left: -15px;
+  }
+
+  &__diagrams-img {
+    z-index: 0;
+    position: absolute;
+    top: -250px;
+    left: -200px;
+  }
+}
+
+@media only screen and(max-width: 1280px) {
+  .info {
+    position: relative;
+    &__circle {
+      width: 332px;
+      height: 332px;
+      display: inline-block;
+      position: absolute;
+      bottom: -70px;
+      left: -15px;
+    }
+
+    &__diagrams-img {
+      z-index: 0;
+      position: absolute;
+      top: -270px;
+      left: -220px;
+    }
+  }
+} ;

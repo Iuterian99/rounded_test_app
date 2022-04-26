@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./LeftText.scss";
 const LeftText = () => {
   return (
@@ -10,6 +11,14 @@ const LeftText = () => {
         Ehya is the Instagram analytics platform teams use to stay focused on
         the goals, track engagement for report your business .
       </p>
+      <div className="leftText__bottom">
+        <button className="leftText__button" type="button">
+          See how it works
+        </button>
+        <Link className="leftText__link" to="#">
+          Get a free demo
+        </Link>
+      </div>
     </div>
   );
 };

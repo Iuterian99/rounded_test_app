@@ -1,9 +1,10 @@
 .leftText {
   padding-left: 140px;
   margin-top: 170px;
+  margin-bottom: 100px;
 
   &__heading1 {
-    width: 643px;
+    width: 623px;
     height: 241px;
     left: 9.72%;
     right: 47.01%;
@@ -29,6 +30,55 @@
     line-height: 26px;
     margin: 0;
     margin-top: 32px;
+  }
+  &__bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+  }
+
+  &__button {
+    width: 197px;
+    height: 57px;
+    left: 140px;
+    top: 630px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #00a8db;
+    border-radius: 4px;
+    border: 0;
+  }
+
+  &__link {
+    width: 123px;
+    height: 21px;
+    left: 379px;
+    top: 648px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 42px;
+    text-decoration: none;
+  }
+
+  &__link::after {
+    position: absolute;
+    width: 23px;
+    height: 21px;
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(../../../Images/arrow.svg);
+    margin-left: 10px;
+    margin-top: 5px;
   }
 }
 .faster {

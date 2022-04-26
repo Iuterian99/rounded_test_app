@@ -14,7 +14,7 @@ const Navbar = () => {
           </li>
           <li className="navigation__list__item">
             <select className="landings">
-              <option autofocus selected value="landings">
+              <option autoFocus defaultValue value="landings">
                 Landings
               </option>
               <option value="other">other</option>
@@ -23,7 +23,7 @@ const Navbar = () => {
           </li>
           <li className="navigation__list__item">
             <select className="landings">
-              <option autofocus selected value="pages">
+              <option autoFocus defaultValue value="pages">
                 Pages
               </option>
               <option value="1">1</option>

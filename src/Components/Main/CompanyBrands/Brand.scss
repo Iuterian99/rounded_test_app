@@ -1,0 +1,21 @@
+.brand {
+  width: 1110px;
+  margin: 0 auto;
+  &__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+    &__item {
+      color: black;
+      &__img {
+        width: 229.9px;
+        height: 38.72px;
+        left: 165px;
+        top: 988.09px;
+      }
+    }
+  }
+}
