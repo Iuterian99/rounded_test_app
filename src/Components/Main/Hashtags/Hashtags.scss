@@ -1,0 +1,45 @@
+.hashtags {
+  padding-top: 80px;
+  background-color: #effbff;
+
+  &__title {
+    width: 616px;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 76px;
+
+    &__heading {
+      height: 52px;
+      left: 0.73%;
+      right: 0.73%;
+      top: calc(50% - 52px / 2 - 44px);
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 52px;
+      text-align: center;
+      letter-spacing: 0.3px;
+      color: #034d82;
+      margin: 0;
+      margin-bottom: 24px;
+    }
+
+    &__paragraph {
+      width: 579px;
+      height: 64px;
+      left: 3.08%;
+      right: 2.92%;
+      top: calc(50% - 64px / 2 + 38px);
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      text-align: center;
+      letter-spacing: 0.3px;
+      color: #8ea9c1;
+      margin: 0;
+    }
+  }
+}

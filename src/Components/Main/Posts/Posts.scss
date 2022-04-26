@@ -7,14 +7,43 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+
     &__item {
       display: flex;
       justify-content: space-evenly;
+      position: relative;
+      margin-bottom: 100px;
+
       &__img {
+        display: block;
         width: 494px;
         height: 550.85px;
         left: 148px;
         top: 1232.14px;
+      }
+
+      &__phone {
+        width: 699.95px;
+        height: 410.39px;
+        left: 661.05px;
+        top: 2041.61px;
+      }
+
+      &__vector {
+        z-index: -1;
+        width: 524.4px;
+        height: 881.45px;
+        position: absolute;
+        top: -100px;
+        left: 180px;
+
+        @media only screen and(max-width: 1280px) {
+          width: 424.4px;
+          height: 781.45px;
+          position: absolute;
+          top: -100px;
+          left: 180px;
+        }
       }
 
       &__text {
@@ -31,10 +60,13 @@
           line-height: 52px;
           letter-spacing: 0.3px;
           color: #034d82;
+          margin: 0;
+          padding: 0;
+          margin-top: 80px;
         }
+
         &__paragraph {
           width: 485px;
-          height: 96px;
           left: 0%;
           right: 0%;
           top: calc(50% - 96px / 2 + 35px);
@@ -45,9 +77,14 @@
           line-height: 32px;
           letter-spacing: 0.3px;
           color: #90a3b4;
+          margin: 0;
+          padding: 0;
+          margin-top: 24px;
+          margin-bottom: 36px;
         }
+
         &__link {
-          width: 176px;
+          width: 245px;
           height: 21px;
           left: 0.98px;
           top: 260px;
@@ -58,12 +95,55 @@
           text-decoration: none;
           display: flex;
           align-items: center;
-          margin-right: 5px;
+
           &__arrow {
-            padding-left: 6px;
+            margin-left: 6px;
           }
         }
       }
     }
   }
+}
+
+.second-list {
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+
+  &__heading {
+    margin: 0;
+  }
+
+  &__paragraph {
+    margin: 0;
+    padding: 0;
+    margin-top: 24px;
+  }
+}
+
+.first-feature {
+  margin-top: 24px;
+}
+
+.build-in-features {
+  display: block;
+  display: flex;
+  align-items: center;
+  margin-bottom: 17px;
+}
+
+.build-in-features::before {
+  width: 16px;
+  height: 16px;
+  content: "";
+  display: inline-block;
+  background-image: url(../../../Images/checked_sign.png);
+  background-repeat: no-repeat;
+  margin-right: 12px;
+}
+
+.last-feature {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
 }
