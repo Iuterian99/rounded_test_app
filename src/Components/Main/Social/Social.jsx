@@ -19,7 +19,9 @@ const Social = () => {
           </Link>
         </div>
       </div>
-      <button className="social__btn">Get your trial now</button>
+      <button className="social__btn" type="button">
+        Get your trial now
+      </button>
     </div>
   );
 };
