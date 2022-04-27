@@ -3,7 +3,7 @@ import "./Navbar.scss";
 import Logo from "../../../Images/Logo.svg";
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <img src={Logo} alt="Logo" width="77" height="24" />
       <div className="navigation">
         <ul className="navigation__list">
@@ -42,11 +42,11 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <button className="navbar__btn" type="button">
+        <Link className="navbar__link" to="#">
           Login
-        </button>
+        </Link>
       </div>
-    </div>
+    </nav>
   );
 };
 

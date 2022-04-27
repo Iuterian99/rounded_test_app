@@ -47,12 +47,16 @@
   }
 }
 
-.navbar__btn {
+.navbar__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
   background-color: rgba(0, 84, 144, 1);
   width: 95px;
   height: 38px;
-  left: 1205px;
-  top: 39px;
   color: white;
   font-size: 14px;
+  border-radius: 5px;
+  border: 0;
 }

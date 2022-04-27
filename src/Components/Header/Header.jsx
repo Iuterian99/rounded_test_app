@@ -7,13 +7,13 @@ import Info from "./HeaderRightInfo/Info";
 
 const Header = () => {
   return (
-    <div className="header">
+    <header className="header">
       <Navbar />
       <div className="below_navbar">
         <LeftText />
         <Info />
       </div>
-    </div>
+    </header>
   );
 };
 

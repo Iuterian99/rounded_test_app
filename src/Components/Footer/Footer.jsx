@@ -9,7 +9,7 @@ import Heart from "../../Images/Heart.svg";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
       <ul className="footer__list">
         <li className="footer__list__item">
           <img src={Logo} alt="Logo" width="90" height="28" />
@@ -135,7 +135,7 @@ const Footer = () => {
           Copyright © 2021. Crafted with love.
         </p>
       </div>
-    </div>
+    </footer>
   );
 };
 

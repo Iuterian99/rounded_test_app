@@ -7,13 +7,13 @@ import Social from "./Social/Social";
 
 const Main = () => {
   return (
-    <div className="main">
+    <main className="main">
       <Brand />
       <Posts />
       <Hashtags />
       <Rates />
       <Social />
-    </div>
+    </main>
   );
 };
 
