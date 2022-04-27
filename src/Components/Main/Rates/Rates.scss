@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin: 150px 0;
 
   &__left {
     &__heading {
@@ -24,15 +25,101 @@
   }
 
   &__right {
+    display: flex;
+    align-items: start;
     &__text {
+      margin-left: 10px;
       &__paragraph {
-        width: 442px;
+        width: 432px;
         font-style: italic;
         font-weight: 400;
         font-size: 16px;
         line-height: 32px;
         color: #90a3b4;
       }
+
+      &__list {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        position: relative;
+
+        &__left-btn {
+          background-color: white;
+          padding: 0;
+          border: 0;
+          position: absolute;
+          left: -68px;
+        }
+
+        &__item {
+          display: flex;
+          align-items: center;
+          &__user-img {
+            margin: 0;
+            padding: 0;
+            margin-right: 15px;
+          }
+          &__user-info {
+            &__heading {
+              width: 121px;
+              font-style: normal;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 24px;
+              letter-spacing: 0.2px;
+              color: #034d82;
+              margin: 0;
+              padding: 0;
+            }
+            &__paragraph {
+              width: 286px;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 28px;
+              color: #90a3b4;
+              margin: 0;
+              padding: 0;
+            }
+          }
+        }
+
+        &__right-btn {
+          background-color: white;
+          margin: 0;
+          padding: 0;
+          border: 0;
+          position: absolute;
+          right: -68px;
+        }
+      }
     }
   }
+}
+
+.dot-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.full-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50px;
+  background-color: #034d82;
+}
+
+.empty-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50px;
+  background-color: #e2ecf4;
+  margin: 0 5px;
 }

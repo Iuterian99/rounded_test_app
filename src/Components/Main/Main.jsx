@@ -3,6 +3,7 @@ import Brand from "./CompanyBrands/Brand";
 import Posts from "./Posts/Posts";
 import Hashtags from "./Hashtags/Hashtags";
 import Rates from "./Rates/Rates";
+import Social from "./Social/Social";
 
 const Main = () => {
   return (
@@ -11,6 +12,7 @@ const Main = () => {
       <Posts />
       <Hashtags />
       <Rates />
+      <Social />
     </div>
   );
 };

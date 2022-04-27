@@ -1,0 +1,66 @@
+.social {
+  width: 1159px;
+  margin: 0 auto;
+  background-color: #09bddd;
+  border-radius: 5px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+  content: "";
+  background-image: url(../../../Images/social__circles.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+
+  &__left-info {
+    &__heading {
+      width: 355px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
+      letter-spacing: 0.3px;
+      color: #ffffff;
+    }
+    &__paragraph {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 32px;
+      letter-spacing: 0.3px;
+      color: #ffffff;
+    }
+    &__people {
+      margin-bottom: 50px;
+      display: flex;
+      align-items: center;
+      &__link {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 32px;
+        letter-spacing: 0.3px;
+        text-decoration-line: underline;
+        color: #ffffff;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  &__btn {
+    left: 1037px;
+    top: 4121px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #00b8d9;
+    padding: 18px 32px;
+    border-radius: 5px;
+    border: 0;
+  }
+}
